@@ -1,0 +1,15 @@
+{
+  "name": "rudloff/drupal-link-psr13",
+  "description": "Convert Drupal URL objects to PSR-13 compliant link objects",
+  "license": "GPL-3.0-only",
+  "require": {
+    "php": ">=8.0",
+    "psr/link": "^2.0",
+    "drupal/core": "^9"
+  },
+  "autoload": {
+    "psr-4": {
+      "DrupalLinkPsr\\": "classes/"
+    }
+  }
+}
